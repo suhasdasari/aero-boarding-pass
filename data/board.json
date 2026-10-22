@@ -1,0 +1,1053 @@
+{
+ "generatedAt": "2026-10-22T08:20:05Z",
+ "source": "https://app.aero.xyz/docs/security",
+ "migrationOpen": 1792622048,
+ "chains": {
+  "base": {
+   "name": "Base",
+   "symbol": "AERO",
+   "ratio": 1.0,
+   "totals": {
+    "paidBasis": 555608378.5420742,
+    "totalSupply": 2006874384.808616,
+    "inEscrow": 1108957925.2298856,
+    "escrowSupply": 1120801635.0027452,
+    "migrationLock": 555608379.5420742,
+    "remainingLocked": 565193255.460671,
+    "liquidOutside": 897916459.5787303
+   },
+   "totalsAt": "2026-10-22T08:20:05Z",
+   "events": {
+    "cursor": 52933930,
+    "head": 52933929,
+    "hourly": {
+     "1792620000": {
+      "ve": 9329.372193017034,
+      "veN": 6,
+      "liq": 0.0,
+      "liqN": 0
+     },
+     "1792623600": {
+      "ve": 30757541.760094836,
+      "veN": 29,
+      "liq": 0.0,
+      "liqN": 0
+     },
+     "1792627200": {
+      "ve": 1446170.980065289,
+      "veN": 73,
+      "liq": 36837826.563865095,
+      "liqN": 432
+     },
+     "1792630800": {
+      "ve": 108866750.90477906,
+      "veN": 1354,
+      "liq": 9718802.20127434,
+      "liqN": 427
+     },
+     "1792634400": {
+      "ve": 261411841.4303634,
+      "veN": 668,
+      "liq": 2459240.969412934,
+      "liqN": 253
+     },
+     "1792638000": {
+      "ve": 15333443.347618677,
+      "veN": 374,
+      "liq": 2136807.0028783195,
+      "liqN": 233
+     },
+     "1792641600": {
+      "ve": 43387210.77344708,
+      "veN": 370,
+      "liq": 2601751.0758425356,
+      "liqN": 218
+     },
+     "1792645200": {
+      "ve": 8240453.8088600235,
+      "veN": 389,
+      "liq": 1879667.0680946698,
+      "liqN": 248
+     },
+     "1792648800": {
+      "ve": 12425251.182395201,
+      "veN": 291,
+      "liq": 2751551.2989061517,
+      "liqN": 284
+     },
+     "1792652400": {
+      "ve": 8737981.878702622,
+      "veN": 337,
+      "liq": 1094072.084632666,
+      "liqN": 218
+     },
+     "1792656000": {
+      "ve": 4573041.8702886645,
+      "veN": 125,
+      "liq": 364950.1539753752,
+      "liqN": 81
+     }
+    },
+    "largest": [
+     {
+      "id": 4,
+      "amount": 127674737.67221308,
+      "tx": "0x994e6e51c86d70935eb5b58b29515003c2d4b70df9df7b98262095d72f88b644",
+      "ts": 1792635261
+     },
+     {
+      "id": 2,
+      "amount": 58977099.055923894,
+      "tx": "0xdd2c71003b61872304974b4d0c2e580104668d5e0731443a80947e766f7d5b46",
+      "ts": 1792635275
+     },
+     {
+      "id": 5,
+      "amount": 22576870.19934565,
+      "tx": "0x060ffc052519b169786716d211c368271ae4fdf3448b77359993118a2239da3d",
+      "ts": 1792624643
+     },
+     {
+      "id": 6,
+      "amount": 11442128.275291199,
+      "tx": "0xa7a07fa271964178bfdcaa3494b363dc4955637855b5325dc7e5fb47df8e4312",
+      "ts": 1792631237
+     },
+     {
+      "id": 12,
+      "amount": 5471711.248189364,
+      "tx": "0xc5b15f75c395204d1c33f9d74e7eeabc8f9e02cf5dd3cb412b76c5402634e006",
+      "ts": 1792631579
+     },
+     {
+      "id": 17213,
+      "amount": 5276513.91564545,
+      "tx": "0x44011d7357c3ba0fb5f4102c711ac9a3aa1e7f5618ee5644905531ab9dc8bdc1",
+      "ts": 1792641611
+     },
+     {
+      "id": 91856,
+      "amount": 4853405.556766722,
+      "tx": "0x41ef14d95bed2b4f3014831370064554ffbac33bb1f138458790fa6e868625ef",
+      "ts": 1792631969
+     },
+     {
+      "id": 109381,
+      "amount": 4393078.597866659,
+      "tx": "0xfe148cb9ea4876f98a2e8d9c7c928497254a65268e97f273c265ad34dc2efc0b",
+      "ts": 1792624595
+     },
+     {
+      "id": 56,
+      "amount": 4081268.603388095,
+      "tx": "0x973e1df7e9f2b0356df102f547e54bd027fd0c67be54ee19c0622217cf3f5f35",
+      "ts": 1792632033
+     },
+     {
+      "id": 75058,
+      "amount": 3786518.6943717203,
+      "tx": "0xdd2c71003b61872304974b4d0c2e580104668d5e0731443a80947e766f7d5b46",
+      "ts": 1792635275
+     }
+    ]
+   },
+   "eventsAt": "2026-10-22T08:20:05Z",
+   "ground": {
+    "maxTokenId": 132685,
+    "normalCount": 79425,
+    "normalAmount": 502534944.1427207,
+    "relayDepositCount": 9430,
+    "relayCount": 68,
+    "relayAmount": 62575757.50087678,
+    "top": [
+     {
+      "id": 1,
+      "amount": 82459965.46753418,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 3,
+      "amount": 29449987.666976497,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 12740,
+      "amount": 21329628.34533833,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 23800,
+      "amount": 11337537.259236785,
+      "end": 1862179200,
+      "permanent": false,
+      "owner": "0x635fb974f09b269bc750bf96338c29cf41430125",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 117060,
+      "amount": 10780285.641126364,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0x834c0da026d5f933c2c18fa9f8ba7f1f792fda52",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 47,
+      "amount": 9228169.04168412,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x011b0a055e02425461a1ae95b30f483c4ff05be7",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 7,
+      "amount": 9126708.808656432,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x586cf50c2874f3e3997660c0fd0996b090fb9764",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 19838,
+      "amount": 7928805.53239627,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 48,
+      "amount": 7713287.4140373925,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x12478d1a60a910c9cbffb90648766a2bdd5918f5",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 44102,
+      "amount": 7278947.823941771,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 77559,
+      "amount": 6693270.134459159,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 35622,
+      "amount": 6647077.746162786,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 63678,
+      "amount": 6581446.709823559,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 49,
+      "amount": 5693696.14515882,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xd062ab63bb4f7af7e59b85defc3c90bfa9b81e6e",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 97184,
+      "amount": 4821207.837882873,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0x834c0da026d5f933c2c18fa9f8ba7f1f792fda52",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 76907,
+      "amount": 4621884.724637505,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 7121,
+      "amount": 4494462.3087460855,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x011b0a055e02425461a1ae95b30f483c4ff05be7",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 77219,
+      "amount": 4201713.386034095,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 19983,
+      "amount": 4158903.028916734,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xa79cd47655156b299762dfe92a67980805ce5a31",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 22576,
+      "amount": 3870356.993716788,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 76140,
+      "amount": 3781161.441145803,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 85905,
+      "amount": 3770527.6668876573,
+      "end": 1918425600,
+      "permanent": false,
+      "owner": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 51,
+      "amount": 3619344.4492658465,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x0f228805c03a693aa964a791e0b2e2c6e6c6513f",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 20,
+      "amount": 3591393.192136314,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x784cf4b62655486b405eb76731885cc9ed56f42f",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 52,
+      "amount": 3182486.2190591265,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x28878aec6b4209d90a40890183e3322f0ae5b2e2",
+      "voted": true,
+      "ownerType": "eoa"
+     }
+    ],
+    "relays": [
+     {
+      "id": 10298,
+      "amount": 27819954.386666015,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xc9814f18a8751214f719de15c54d01b3d78ef14f",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 11129,
+      "amount": 20080724.0147118,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x3470fe9a968013bb02b8496cd3c1d0a5743be76d",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 26689,
+      "amount": 3936411.7425364195,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x94bdf5583eaffbf843654157f90b98eece0efed3",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 84236,
+      "amount": 3665509.2734868163,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xedc85d28ce1d19aa8189eb7e89c9be1aaf0f2d42",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 12435,
+      "amount": 1388120.7383168396,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xecde6de2cb420a03b76a1f2860eca4aed1fb1aa9",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 10295,
+      "amount": 1066713.1501907755,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xc875b3dae5b0c371bc8cf9ded64868b78ac47587",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 30364,
+      "amount": 725494.0147123381,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xd4a334569623814306170851ec5f1fb32fcd08fe",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 10294,
+      "amount": 616182.9835887293,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x48a6a8d403a58eccc70d4d57347f801d4e182564",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 10297,
+      "amount": 534486.805569815,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x6a941fe89cac5f440bb14e5286ad3e38ca3f2d39",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 12185,
+      "amount": 400548.0604987775,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x283c1becdf448b192ddb86bb4d1aa516bacdf985",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 20217,
+      "amount": 277618.826830222,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x153e03a6641c2f417aed4ddad00be5c896dc8283",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 17542,
+      "amount": 236685.68323777005,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x1d448eae1797a5b64e1ae1c0a3e250e9a5281ef1",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 13763,
+      "amount": 221563.01459895604,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x021938ab80af7d43363aebefe912df9f48a1c7ce",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 12831,
+      "amount": 184041.33951930882,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x7e50ec24b9bb33eb383dcd5a1fae3762a99ba57b",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 40953,
+      "amount": 173678.10585905582,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xfea1ae6da352b08f61958800de6fbbdf8deef002",
+      "voted": true,
+      "ownerType": "contract"
+     }
+    ]
+   },
+   "groundAt": "2026-10-22T08:20:05Z"
+  },
+  "op": {
+   "name": "OP Mainnet",
+   "symbol": "VELO",
+   "ratio": 0.044,
+   "totals": {
+    "paidBasis": 543661510.3504003,
+    "totalSupply": 2656153991.458378,
+    "inEscrow": 1443083260.0464344,
+    "escrowSupply": 1464878138.509491,
+    "migrationLock": 543661511.3504003,
+    "remainingLocked": 921216627.1590906,
+    "liquidOutside": 1213070731.4119434
+   },
+   "totalsAt": "2026-10-22T08:20:05Z",
+   "events": {
+    "cursor": 158529365,
+    "head": 158529364,
+    "hourly": {
+     "1792620000": {
+      "ve": 69.91941809954521,
+      "veN": 1,
+      "liq": 0.0,
+      "liqN": 0
+     },
+     "1792623600": {
+      "ve": 1967390.6098399896,
+      "veN": 9,
+      "liq": 0.0,
+      "liqN": 0
+     },
+     "1792627200": {
+      "ve": 7336819.3906353945,
+      "veN": 32,
+      "liq": 45819805.933861844,
+      "liqN": 93
+     },
+     "1792630800": {
+      "ve": 150293199.19773784,
+      "veN": 347,
+      "liq": 55417113.1308222,
+      "liqN": 99
+     },
+     "1792634400": {
+      "ve": 145768547.7481757,
+      "veN": 170,
+      "liq": 5472399.728400117,
+      "liqN": 68
+     },
+     "1792638000": {
+      "ve": 18645801.522254933,
+      "veN": 92,
+      "liq": 12783692.427725151,
+      "liqN": 63
+     },
+     "1792641600": {
+      "ve": 20261761.829068016,
+      "veN": 76,
+      "liq": 2446553.695961641,
+      "liqN": 44
+     },
+     "1792645200": {
+      "ve": 32416451.772404596,
+      "veN": 70,
+      "liq": 2455646.6699909265,
+      "liqN": 41
+     },
+     "1792648800": {
+      "ve": 11455481.670131264,
+      "veN": 86,
+      "liq": 4199794.173878172,
+      "liqN": 42
+     },
+     "1792652400": {
+      "ve": 7708007.48713492,
+      "veN": 74,
+      "liq": 3879151.3799561383,
+      "liqN": 48
+     },
+     "1792656000": {
+      "ve": 12728764.51336155,
+      "veN": 34,
+      "liq": 1874425.2810024843,
+      "liqN": 25
+     }
+    },
+    "largest": [
+     {
+      "id": 1063,
+      "amount": 43241395.883667745,
+      "tx": "0xcba64150bd8ce65790084b29278d3eb290f4a0fb864661896de4d59c7b3108ae",
+      "ts": 1792636303
+     },
+     {
+      "id": 32807,
+      "amount": 31372636.787082374,
+      "tx": "0x57c406e9b931549ba5cd2a99ccf3aa80b080690a234b6770a2448018e5db23ab",
+      "ts": 1792636429
+     },
+     {
+      "id": 2735,
+      "amount": 13408063.518728731,
+      "tx": "0x7644eaed0f6dd1dc73ad4fa84486594d3c5f74f3eec82f108a478dd686f6c1c1",
+      "ts": 1792631369
+     },
+     {
+      "id": 3836,
+      "amount": 9408749.684927722,
+      "tx": "0x988ed1045866e7ca5e552dfe8f46abfc6ee4f5e654261386b8c1d0bdeeba3d05",
+      "ts": 1792640849
+     },
+     {
+      "id": 652,
+      "amount": 9135817.722144222,
+      "tx": "0xa6ed9dd48634f62f424f30ee4dd42b4f56f79dff62c4aa6bcd06c474d447de76",
+      "ts": 1792636217
+     },
+     {
+      "id": 8,
+      "amount": 8822926.57834892,
+      "tx": "0x59a418433a120fecf35aecb73d82597b6e7a832d6e103da386d151cf99233de5",
+      "ts": 1792632227
+     },
+     {
+      "id": 3908,
+      "amount": 8712864.009129543,
+      "tx": "0xdfac8d3e72ada244ebb9a10138239c439917d61548457f8edf96967fece0daed",
+      "ts": 1792657417
+     },
+     {
+      "id": 4179,
+      "amount": 8054127.1666840585,
+      "tx": "0xe49cfbad2a9c987098da6b886ecd78ea9607546a30110a7e631cbdd0d821d5fe",
+      "ts": 1792644323
+     },
+     {
+      "id": 3928,
+      "amount": 8032070.561930913,
+      "tx": "0xdab6a9f7f06c5c2e1be24f163b598bf10d7989d8bbe41c6363073060de9864c8",
+      "ts": 1792636187
+     },
+     {
+      "id": 4195,
+      "amount": 7778560.542474628,
+      "tx": "0x26bddffcbddf03587f74e020597ca8b9505a3916470545b22234d252506a75e0",
+      "ts": 1792630885
+     }
+    ]
+   },
+   "eventsAt": "2026-10-22T08:20:05Z",
+   "ground": {
+    "maxTokenId": 34484,
+    "normalCount": 17597,
+    "normalAmount": 753121929.3530284,
+    "relayDepositCount": 1769,
+    "relayCount": 33,
+    "relayAmount": 168093404.53202155,
+    "top": [
+     {
+      "id": 23335,
+      "amount": 49840822.387767546,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x2a8951efcd40529dd6edb3149ccbe4e3ce7d053d",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 4140,
+      "amount": 46256917.09524394,
+      "end": 1886976000,
+      "permanent": false,
+      "owner": "0x2a8951efcd40529dd6edb3149ccbe4e3ce7d053d",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 26388,
+      "amount": 38444591.856457666,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x78415b05ecbd63b68c277387aa5683bbe2bd1bd8",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 3791,
+      "amount": 35653048.2102742,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xadbf24e9968cdf7792e8823110ae9f104d1b1809",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 26367,
+      "amount": 19879087.346648093,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x2a8951efcd40529dd6edb3149ccbe4e3ce7d053d",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 4130,
+      "amount": 18888885.805718224,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xa283139017a2f5bade8d8e25412c600055d318f8",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 4576,
+      "amount": 18365387.064983122,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x011b0a055e02425461a1ae95b30f483c4ff05be7",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 4927,
+      "amount": 15754504.106464708,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x12478d1a60a910c9cbffb90648766a2bdd5918f5",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 3484,
+      "amount": 14990102.831592035,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xc224bf25dcc99236f00843c7d8c4194abe8aa94a",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 3927,
+      "amount": 12605586.002328396,
+      "end": 1901491200,
+      "permanent": false,
+      "owner": "0xd062ab63bb4f7af7e59b85defc3c90bfa9b81e6e",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 3830,
+      "amount": 11442140.489249695,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xd4c00fe7657791c2a43025de483f05e49a5f76a6",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 6709,
+      "amount": 10485058.917533737,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x9644a6920bd0a1923c2c6c1dddf691b7a42e8a65",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 28620,
+      "amount": 9512193.588266587,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x78415b05ecbd63b68c277387aa5683bbe2bd1bd8",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 30465,
+      "amount": 9279801.207090177,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x9c460d6b948af736c5a106f46e549f7981e3348d",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 4577,
+      "amount": 7388665.439136871,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x011b0a055e02425461a1ae95b30f483c4ff05be7",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 10770,
+      "amount": 7220735.875490209,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x4444aaaacdba5580282365e25b16309bd770ce4a",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 15895,
+      "amount": 7133670.92036005,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x28ba242755de3034ac4bd63261e3579bdb37d599",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 3576,
+      "amount": 6682156.462882221,
+      "end": 1868832000,
+      "permanent": false,
+      "owner": "0x1777c6d588fd931751762836811529c0073d6376",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 801,
+      "amount": 6432620.278640428,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x69e6e1675cbda4f84cb3596c96d59fc3ad9e5790",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 2433,
+      "amount": 6413255.426353187,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x6665e62ef6f6db29d5f8191fbac472222c2cc80f",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 4915,
+      "amount": 6229369.663505803,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x285fed35cbea271a711681e84ffd83c68a596a75",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 4976,
+      "amount": 5805461.44790015,
+      "end": 1857945600,
+      "permanent": false,
+      "owner": "0x0df840dcbf1229262a4125c1fc559bd338ec9491",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 4131,
+      "amount": 5661092.061845994,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xde0c5704a34a93d72d445178832f81e2270ef4f7",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 30816,
+      "amount": 5272181.711800078,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x72544720e48fe076c2dc1532000fe37fc6707163",
+      "voted": true,
+      "ownerType": "eoa"
+     },
+     {
+      "id": 1877,
+      "amount": 5170507.578379533,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xaa059b384a359f9b627996687e2dcafa35c91588",
+      "voted": true,
+      "ownerType": "contract"
+     }
+    ],
+    "relays": [
+     {
+      "id": 23216,
+      "amount": 117024245.43244252,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xbc6b172f377c72742ce56e61a38c33030e73d220",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 20264,
+      "amount": 23493826.192088723,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x0840571af3726525f02378a47b2014193537f1d6",
+      "voted": false,
+      "ownerType": "contract"
+     },
+     {
+      "id": 21267,
+      "amount": 13662020.96508001,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x8c5e4caddc1514de32c09c309f64e40e9c9ada89",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 20697,
+      "amount": 3825262.6376249846,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x2e53e052daa105a1c345e4cd6a7126a9640508df",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 20263,
+      "amount": 3417406.9754382474,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x8b791584f584f1bfd7c84e51a9956c788d74833f",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 20259,
+      "amount": 2652379.0427558455,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x4e2bca36460c73521090cbbca105e864bc159ee0",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 20261,
+      "amount": 1702820.5596692117,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x01469efdddf18797d48ab85b858b5bf1e4cccf05",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 22729,
+      "amount": 689353.671385372,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x4caf01b0be785dded8abc2ff70b8d547aea12cd2",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 20260,
+      "amount": 505243.5771439316,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xc910e9515e52b90b49fb244620f324681244e71f",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 19491,
+      "amount": 264916.20334609353,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x2cffffa6b305104692d2b06ccf178ee28fe9daa4",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 19041,
+      "amount": 223414.74017978148,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x50c404245be7a12c0a98549c3438190ad45a47bd",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 20276,
+      "amount": 131285.1405006468,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x00621858d5dc273fcf204260265ba6e66c34b5e7",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 19490,
+      "amount": 122592.81966617597,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xe5f3613c803b959e6983b48a6c75bb9527f0f19b",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 20258,
+      "amount": 100802.65945024909,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x6cdcb27efd26a67178676abd1537b1a111797447",
+      "voted": true,
+      "ownerType": "contract"
+     },
+     {
+      "id": 20939,
+      "amount": 98996.6837340963,
+      "end": 0,
+      "permanent": true,
+      "owner": "0xb15974b5d35bb68e282a52e5a4880835b428a53b",
+      "voted": true,
+      "ownerType": "contract"
+     }
+    ]
+   },
+   "groundAt": "2026-10-22T08:20:05Z"
+  }
+ }
+}

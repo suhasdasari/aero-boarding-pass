@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aero Boarding Pass: live AERO/VELO upgrade tracker and wallet checker</title>
+<meta name="description" content="Live on-chain progress of the Aerodrome and Velodrome upgrade to Aero, the largest positions not yet upgraded, and a Base/OP wallet checker.">
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<header>
+  <div class="wrap">
+    <h1>✈️ Aero Boarding Pass</h1>
+    <p class="sub">Live, on-chain tracker for the Aerodrome + Velodrome upgrade to Aero (launched Oct 21, 2026, 8:00 PM EDT). The upgrade is manual and one-way.</p>
+    <p class="warn">⚠️ Only use the official portals: <a href="https://aerodrome.finance/upgrade" rel="noopener">aerodrome.finance/upgrade</a> · <a href="https://velodrome.finance/upgrade" rel="noopener">velodrome.finance/upgrade</a> · <a href="https://app.aero.xyz" rel="noopener">app.aero.xyz</a>. Fake migration sites are circulating. This page never asks you to connect a wallet or sign anything.</p>
+  </div>
+</header>
+<main class="wrap">
+<section>
+  <h2>Boarding board</h2>
+  <p class="muted" id="board-status">Loading on-chain data…</p>
+  <div class="grid" id="board"></div>
+  <h3>Upgraded per hour since the migration contracts opened</h3>
+  <div id="chart" class="chart"></div>
+  <p class="muted small" id="chart-note"></p>
+</section>
+
+<section>
+  <h2>Still on the ground</h2>
+  <p class="muted small">Largest legacy veNFTs that have not been upgraded, and relays (managed veNFTs) still holding deposits. Token IDs and addresses only; we don't guess who owns them. "Contract" owners can be multisigs, vaults or relays. <span id="ground-at"></span></p>
+  <div class="cols">
+    <div><h3>veAERO (Base)</h3><div id="ground-base"></div></div>
+    <div><h3>veVELO (OP Mainnet)</h3><div id="ground-op"></div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Wallet checker (Base + OP Mainnet)</h2>
+  <p class="muted small">Read-only. Paste an address to see legacy AERO, VELO, veAERO and veVELO, blockers, and the expected new AERO/sAERO at the official rates (1 AERO = 1, 1 VELO = 0.044). Liquidity deposits aren't checked here; see the portal.</p>
+  <form id="wform"><input id="waddr" placeholder="0x… wallet address" autocomplete="off" spellcheck="false"><button>Check</button></form>
+  <div id="wout"></div>
+</section>
+
+<section class="paid">
+  <h2>Upgrade Watch <span class="tag">coming soon</span></h2>
+  <p>Watch up to 10 wallets, get a heads-up when a relay withdrawal, vote reset or reward claim is still blocking, and download a CSV of positions and expected sAERO. Planned price: about $2 USDC on Base. Payments aren't enabled yet.</p>
+</section>
+
+<section>
+  <h2>Sources and method</h2>
+  <div id="contracts" class="small"></div>
+  <ul class="small muted">
+    <li>Contract addresses come from the official <a href="https://app.aero.xyz/docs/security" rel="noopener">Aero docs security page</a> (Migration section). Legacy token, escrow and migration-veNFT addresses are read on-chain from the migration contracts (<code>V2_TOKEN()</code>, <code>V2_ESCROW()</code>, <code>MIGRATION_TOKEN_ID()</code>).</li>
+    <li>Upgraded = <code>paidBasis()</code> on each migration contract (total legacy amount deposited). Locked % = upgraded locks ÷ (upgraded locks + legacy escrow <code>supply()</code> still outside the migration veNFT). Liquid % = liquid upgraded ÷ (liquid upgraded + legacy supply outside the escrow; this includes tokens in pools and on exchanges).</li>
+    <li>On-chain timing: the migration contracts allow veNFT upgrades from <code>MIGRATION_OPEN()</code> = Oct 21, 6:34 PM EDT, and liquid / expired-lock upgrades from <code>epochNext(MIGRATION_OPEN)</code> = Oct 21, 8:00 PM EDT (Oct 22 00:00 UTC).</li>
+    <li>Rates and steps: <a href="https://aerodrome.finance/docs/upgrade" rel="noopener">aerodrome.finance/docs/upgrade</a>, <a href="https://velodrome.finance/docs/upgrade" rel="noopener">velodrome.finance/docs/upgrade</a>, <a href="https://aero.xyz/aero-upgrade/" rel="noopener">aero.xyz/aero-upgrade</a>.</li>
+  </ul>
+  <p class="small">Spotted a mistake or own a listed position and want it labeled? <a href="https://github.com/suhasdasari/aero-boarding-pass/issues/new?title=Claim%20or%20correct" rel="noopener">Claim or correct it here</a>.</p>
+  <p class="small muted">Not financial advice. Informational only, with no affiliation to Aero, Aerodrome or Velodrome. Always verify on the official portals.</p>
+</section>
+</main>
+<footer><div class="wrap">Built by Satoshi Drops 🪂 <a href="https://x.com/SatoshiDropsHQ" rel="noopener">@SatoshiDropsHQ</a></div></footer>
+<script src="assets/app.js"></script>
+</body></html>

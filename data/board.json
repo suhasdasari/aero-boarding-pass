@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T01:13:49Z",
+ "generatedAt": "2026-11-01T07:37:14Z",
  "source": "https://app.aero.xyz/docs/security",
  "migrationOpen": 1792622048,
  "chains": {
@@ -8,18 +8,18 @@
    "symbol": "AERO",
    "ratio": 1.0,
    "totals": {
-    "paidBasis": 1136193949.1438658,
+    "paidBasis": 1136399018.2215745,
     "totalSupply": 2007019188.3317301,
-    "inEscrow": 1201043069.2565625,
-    "escrowSupply": 1205349565.572285,
-    "migrationLock": 1136193950.1438658,
-    "remainingLocked": 69155615.42841911,
-    "liquidOutside": 805976119.0751677
+    "inEscrow": 1201226964.3487096,
+    "escrowSupply": 1205526963.4941142,
+    "migrationLock": 1136399019.2215745,
+    "remainingLocked": 69127944.27253962,
+    "liquidOutside": 805792223.9830205
    },
-   "totalsAt": "2026-11-01T01:13:49Z",
+   "totalsAt": "2026-11-01T07:37:14Z",
    "events": {
-    "cursor": 53353142,
-    "head": 53353141,
+    "cursor": 53364644,
+    "head": 53364643,
     "hourly": {
      "1792620000": {
       "ve": 9329.372193017034,
@@ -1480,10 +1480,46 @@
       "liqN": 1
      },
      "1793494800": {
-      "ve": 105.35224128367504,
-      "veN": 1,
-      "liq": 2196.004291666314,
-      "liqN": 2
+      "ve": 19363.652074985424,
+      "veN": 3,
+      "liq": 2427.4042916663143,
+      "liqN": 3
+     },
+     "1793498400": {
+      "ve": 0.0,
+      "veN": 0,
+      "liq": 2344.8411381465958,
+      "liqN": 4
+     },
+     "1793502000": {
+      "ve": 1326.741049925041,
+      "veN": 5,
+      "liq": 121477.51265946847,
+      "liqN": 17
+     },
+     "1793505600": {
+      "ve": 1831.839212832088,
+      "veN": 3,
+      "liq": 11.12818996121911,
+      "liqN": 1
+     },
+     "1793509200": {
+      "ve": 0.0,
+      "veN": 0,
+      "liq": 112.17632380045382,
+      "liqN": 3
+     },
+     "1793512800": {
+      "ve": 5324.7883446117,
+      "veN": 8,
+      "liq": 44750.26853032038,
+      "liqN": 15
+     },
+     "1793516400": {
+      "ve": 36.21032716598002,
+      "veN": 2,
+      "liq": 8363.872098721868,
+      "liqN": 7
      }
     },
     "largest": [
@@ -1549,14 +1585,14 @@
      }
     ]
    },
-   "eventsAt": "2026-11-01T01:13:49Z",
+   "eventsAt": "2026-11-01T07:37:14Z",
    "ground": {
-    "maxTokenId": 132747,
-    "normalCount": 70473,
-    "normalAmount": 47122656.02706449,
-    "relayDepositCount": 6544,
+    "maxTokenId": 132748,
+    "normalCount": 70456,
+    "normalAmount": 47110727.6308766,
+    "relayDepositCount": 6540,
     "relayCount": 68,
-    "relayAmount": 22032959.401354738,
+    "relayAmount": 22017216.64166301,
     "top": [
      {
       "id": 15,
@@ -1787,7 +1823,7 @@
     "relays": [
      {
       "id": 10298,
-      "amount": 14558170.093074221,
+      "amount": 14542427.333382497,
       "end": 0,
       "permanent": true,
       "owner": "0xc9814f18a8751214f719de15c54d01b3d78ef14f",
@@ -1922,25 +1958,25 @@
      }
     ]
    },
-   "groundAt": "2026-11-01T01:13:49Z"
+   "groundAt": "2026-11-01T07:37:14Z"
   },
   "op": {
    "name": "OP Mainnet",
    "symbol": "VELO",
    "ratio": 0.044,
    "totals": {
-    "paidBasis": 1623563325.3076758,
+    "paidBasis": 1623635945.8713236,
     "totalSupply": 2656188323.8984456,
-    "inEscrow": 1814968554.7393177,
-    "escrowSupply": 1822171403.2466574,
-    "migrationLock": 1623563326.3076758,
-    "remainingLocked": 198608076.93898153,
-    "liquidOutside": 841219769.159128
+    "inEscrow": 1814991003.0276117,
+    "escrowSupply": 1822180161.0940385,
+    "migrationLock": 1623635946.8713236,
+    "remainingLocked": 198544214.2227149,
+    "liquidOutside": 841197320.8708339
    },
-   "totalsAt": "2026-11-01T01:13:49Z",
+   "totalsAt": "2026-11-01T07:37:14Z",
    "events": {
-    "cursor": 158948549,
-    "head": 158948548,
+    "cursor": 158959968,
+    "head": 158959967,
     "hourly": {
      "1792620000": {
       "ve": 69.91941809954521,
@@ -3339,6 +3375,42 @@
       "veN": 2,
       "liq": 0.0,
       "liqN": 0
+     },
+     "1793498400": {
+      "ve": 9703.398213147937,
+      "veN": 2,
+      "liq": 0.0,
+      "liqN": 0
+     },
+     "1793502000": {
+      "ve": 2355.841432609772,
+      "veN": 4,
+      "liq": 7.2474390591855e-05,
+      "liqN": 1
+     },
+     "1793505600": {
+      "ve": 1181.3477011743203,
+      "veN": 1,
+      "liq": 0.0,
+      "liqN": 0
+     },
+     "1793509200": {
+      "ve": 49413.37639029412,
+      "veN": 2,
+      "liq": 0.0,
+      "liqN": 0
+     },
+     "1793512800": {
+      "ve": 652.7550179463163,
+      "veN": 1,
+      "liq": 0.0,
+      "liqN": 0
+     },
+     "1793516400": {
+      "ve": 644.9847170830502,
+      "veN": 5,
+      "liq": 8668.860103138435,
+      "liqN": 3
      }
     },
     "largest": [
@@ -3404,14 +3476,14 @@
      }
     ]
    },
-   "eventsAt": "2026-11-01T01:13:49Z",
+   "eventsAt": "2026-11-01T07:37:14Z",
    "ground": {
     "maxTokenId": 34486,
-    "normalCount": 15139,
-    "normalAmount": 173204467.89538237,
-    "relayDepositCount": 1367,
+    "normalCount": 15129,
+    "normalAmount": 173185367.48970664,
+    "relayDepositCount": 1362,
     "relayCount": 33,
-    "relayAmount": 25403609.043599192,
+    "relayAmount": 25358846.73300832,
     "top": [
      {
       "id": 26388,
@@ -3642,7 +3714,7 @@
     "relays": [
      {
       "id": 20264,
-      "amount": 11207376.096506849,
+      "amount": 11197592.045736812,
       "end": 0,
       "permanent": true,
       "owner": "0x0840571af3726525f02378a47b2014193537f1d6",
@@ -3758,15 +3830,6 @@
       "ownerType": "contract"
      },
      {
-      "id": 21267,
-      "amount": 77119.07916165947,
-      "end": 0,
-      "permanent": true,
-      "owner": "0x8c5e4caddc1514de32c09c309f64e40e9c9ada89",
-      "voted": false,
-      "ownerType": "contract"
-     },
-     {
       "id": 20257,
       "amount": 48350.527750463116,
       "end": 0,
@@ -3774,10 +3837,19 @@
       "owner": "0x54f7201e5c67013a37c4beaa96f3ddd9f6d952d1",
       "voted": true,
       "ownerType": "contract"
+     },
+     {
+      "id": 21267,
+      "amount": 42792.97568033428,
+      "end": 0,
+      "permanent": true,
+      "owner": "0x8c5e4caddc1514de32c09c309f64e40e9c9ada89",
+      "voted": false,
+      "ownerType": "contract"
      }
     ]
    },
-   "groundAt": "2026-11-01T01:13:49Z"
+   "groundAt": "2026-11-01T07:37:14Z"
   }
  }
 }

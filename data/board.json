@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T21:38:12Z",
+ "generatedAt": "2026-11-01T01:13:49Z",
  "source": "https://app.aero.xyz/docs/security",
  "migrationOpen": 1792622048,
  "chains": {
@@ -8,18 +8,18 @@
    "symbol": "AERO",
    "ratio": 1.0,
    "totals": {
-    "paidBasis": 1136101886.9879577,
+    "paidBasis": 1136193949.1438658,
     "totalSupply": 2007019188.3317301,
-    "inEscrow": 1201007119.3053353,
-    "escrowSupply": 1205321267.3876872,
-    "migrationLock": 1136101887.9879577,
-    "remainingLocked": 69219379.39972949,
-    "liquidOutside": 806012069.0263948
+    "inEscrow": 1201043069.2565625,
+    "escrowSupply": 1205349565.572285,
+    "migrationLock": 1136193950.1438658,
+    "remainingLocked": 69155615.42841911,
+    "liquidOutside": 805976119.0751677
    },
-   "totalsAt": "2026-10-31T21:38:12Z",
+   "totalsAt": "2026-11-01T01:13:49Z",
    "events": {
-    "cursor": 53346674,
-    "head": 53346673,
+    "cursor": 53353142,
+    "head": 53353141,
     "hourly": {
      "1792620000": {
       "ve": 9329.372193017034,
@@ -1456,10 +1456,34 @@
       "liqN": 12
      },
      "1793480400": {
-      "ve": 4325.004171324587,
-      "veN": 1,
+      "ve": 4327.762325101179,
+      "veN": 2,
       "liq": 319732.0211463552,
       "liqN": 6
+     },
+     "1793484000": {
+      "ve": 37847.17694328469,
+      "veN": 7,
+      "liq": 16591.639406557693,
+      "liqN": 9
+     },
+     "1793487600": {
+      "ve": 11799.47172725872,
+      "veN": 4,
+      "liq": 9183.252239069407,
+      "liqN": 4
+     },
+     "1793491200": {
+      "ve": 14303.927268172416,
+      "veN": 3,
+      "liq": 32.57363694500091,
+      "liqN": 1
+     },
+     "1793494800": {
+      "ve": 105.35224128367504,
+      "veN": 1,
+      "liq": 2196.004291666314,
+      "liqN": 2
      }
     },
     "largest": [
@@ -1525,14 +1549,14 @@
      }
     ]
    },
-   "eventsAt": "2026-10-31T21:38:12Z",
+   "eventsAt": "2026-11-01T01:13:49Z",
    "ground": {
     "maxTokenId": 132747,
-    "normalCount": 70484,
-    "normalAmount": 47166085.502380945,
-    "relayDepositCount": 6548,
+    "normalCount": 70473,
+    "normalAmount": 47122656.02706449,
+    "relayDepositCount": 6544,
     "relayCount": 68,
-    "relayAmount": 22053291.139194753,
+    "relayAmount": 22032959.401354738,
     "top": [
      {
       "id": 15,
@@ -1763,7 +1787,7 @@
     "relays": [
      {
       "id": 10298,
-      "amount": 14578501.830914237,
+      "amount": 14558170.093074221,
       "end": 0,
       "permanent": true,
       "owner": "0xc9814f18a8751214f719de15c54d01b3d78ef14f",
@@ -1898,25 +1922,25 @@
      }
     ]
    },
-   "groundAt": "2026-10-31T21:38:12Z"
+   "groundAt": "2026-11-01T01:13:49Z"
   },
   "op": {
    "name": "OP Mainnet",
    "symbol": "VELO",
    "ratio": 0.044,
    "totals": {
-    "paidBasis": 1623484488.9780302,
+    "paidBasis": 1623563325.3076758,
     "totalSupply": 2656188323.8984456,
-    "inEscrow": 1814937953.0047174,
-    "escrowSupply": 1822171353.861088,
-    "migrationLock": 1623484489.9780302,
-    "remainingLocked": 198686863.88305783,
-    "liquidOutside": 841250370.8937283
+    "inEscrow": 1814968554.7393177,
+    "escrowSupply": 1822171403.2466574,
+    "migrationLock": 1623563326.3076758,
+    "remainingLocked": 198608076.93898153,
+    "liquidOutside": 841219769.159128
    },
-   "totalsAt": "2026-10-31T21:38:12Z",
+   "totalsAt": "2026-11-01T01:13:49Z",
    "events": {
-    "cursor": 158942103,
-    "head": 158942102,
+    "cursor": 158948549,
+    "head": 158948548,
     "hourly": {
      "1792620000": {
       "ve": 69.91941809954521,
@@ -3303,6 +3327,18 @@
       "veN": 3,
       "liq": 2.6237040013022743,
       "liqN": 1
+     },
+     "1793484000": {
+      "ve": 73568.0196975883,
+      "veN": 4,
+      "liq": 0.22404552319966403,
+      "liqN": 1
+     },
+     "1793487600": {
+      "ve": 5268.08590248053,
+      "veN": 2,
+      "liq": 0.0,
+      "liqN": 0
      }
     },
     "largest": [
@@ -3368,14 +3404,14 @@
      }
     ]
    },
-   "eventsAt": "2026-10-31T21:38:12Z",
+   "eventsAt": "2026-11-01T01:13:49Z",
    "ground": {
     "maxTokenId": 34486,
-    "normalCount": 15143,
-    "normalAmount": 173211952.8345515,
-    "relayDepositCount": 1369,
+    "normalCount": 15139,
+    "normalAmount": 173204467.89538237,
+    "relayDepositCount": 1367,
     "relayCount": 33,
-    "relayAmount": 25474911.048506275,
+    "relayAmount": 25403609.043599192,
     "top": [
      {
       "id": 26388,
@@ -3606,7 +3642,7 @@
     "relays": [
      {
       "id": 20264,
-      "amount": 11278603.920964548,
+      "amount": 11207376.096506849,
       "end": 0,
       "permanent": true,
       "owner": "0x0840571af3726525f02378a47b2014193537f1d6",
@@ -3660,7 +3696,7 @@
      },
      {
       "id": 20260,
-      "amount": 324908.3266267957,
+      "amount": 324834.14617741335,
       "end": 0,
       "permanent": true,
       "owner": "0xc910e9515e52b90b49fb244620f324681244e71f",
@@ -3741,7 +3777,7 @@
      }
     ]
    },
-   "groundAt": "2026-10-31T21:38:12Z"
+   "groundAt": "2026-11-01T01:13:49Z"
   }
  }
 }
